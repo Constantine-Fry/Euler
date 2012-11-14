@@ -42,6 +42,14 @@
 @end
 
 
+
+
+
+
+
+
+
+
 @implementation Problem20_NumArray
 
 
@@ -120,8 +128,6 @@
 
 
 
-
-
 @implementation Problem20_Recursive
 
 
@@ -172,6 +178,8 @@
 
 
 
+
+
 @implementation Problem20_Iterative
 
 -(double)factorial:(double)operand{
@@ -190,6 +198,12 @@
 }
 
 @end
+
+
+
+
+
+
 
 
 
