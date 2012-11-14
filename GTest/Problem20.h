@@ -22,5 +22,28 @@
  Find the sum of the digits in the number 100!
 */
 
+@end
+
+
+@interface Problem20_NumArray : EUProblem
+
+
+@end
+
+
+@interface Problem20_Recursive : EUProblem
+
+- (double)factorial:(double)operand;
+
+@end
+
+
+@interface Problem20_Iterative : Problem20_Recursive
+
+
+@end
+
+@interface Problem20_Gamma : Problem20_Recursive
+//http://blog.andrewwei.mu/?p=92
 
 @end
