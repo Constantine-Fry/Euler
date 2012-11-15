@@ -41,6 +41,7 @@
 		4798612A1654BAAA00DD5E11 /* Problem16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem16.m; path = GTest/Problem16.m; sourceTree = "<group>"; };
 		4798612D1654BB1B00DD5E11 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigNumber.h; path = GTest/BigNumber.h; sourceTree = "<group>"; };
 		4798612E1654BB1B00DD5E11 /* BigNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigNumber.m; path = GTest/BigNumber.m; sourceTree = "<group>"; };
+		479861301654BEC000DD5E11 /* EUSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EUSDK.h; path = GTest/EUSDK.h; sourceTree = "<group>"; };
 		47BA2ED81646A6CE004684BD /* GTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BA2EDC1646A6CE004684BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47BA2EDF1646A6CE004684BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		479860D2165360CD00DD5E11 /* Euler */ = {
 			isa = PBXGroup;
 			children = (
+				479861301654BEC000DD5E11 /* EUSDK.h */,
 				479860D4165360FA00DD5E11 /* 1-10 */,
 				479860D51653610400DD5E11 /* 11-20 */,
 				479860D3165360E200DD5E11 /* 21-29 */,

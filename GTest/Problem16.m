@@ -7,11 +7,20 @@
 //
 
 #import "Problem16.h"
+#import "BigNumber.h"
 
 @implementation Problem16
 
 -(void)solve{
-     
+    BigNumber *big = [[BigNumber alloc]initWithNum:2];
+    [big powerOf:15];
+    NSLog(@"%d",[big intValue]);
+    NSLog(@"Sum(2^15) = %@",[big getSum]);
+    
+    
+    big = [[BigNumber alloc]initWithNum:2];
+    [big powerOf:1000];
+    NSLog(@"Sum(2^1000) = %@",[big getSum]);
 }
 
 @end

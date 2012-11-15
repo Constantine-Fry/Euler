@@ -11,7 +11,13 @@
 @interface BigNumber : EUProblem
 - (id)initWithNum:(int)num;
 
-
--(void)muplitplyTo:(int)num;
 -(NSNumber*)getSum;
+-(int)intValue;
+
+#pragma mark Math Operation
+-(void)muplitplyTo:(int)num;
+
+-(void)powerOf:(int)num;
+
+#pragma mark -
 @end

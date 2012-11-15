@@ -57,4 +57,19 @@
     return @(r);
 }
 
+-(int)intValue{
+    NSString *s = [_numbers componentsJoinedByString:@""];
+    return s.intValue;
+}
+
+
+-(void)powerOf:(int)num{
+    int count = num-1;
+    int n = [self intValue];
+    while (count) {
+        [self muplitplyTo:n];
+        count--;
+    }
+}
+
 @end

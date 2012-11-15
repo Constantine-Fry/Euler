@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LinkedList.h"
-#import "Problem20.h"
+#import "EUSDK.h"
 
 @interface Test : NSObject
 -(void)do;
@@ -33,7 +33,7 @@ int main(int argc, const char * argv[])
         srand((unsigned)time(0));
 //        Test *test = [[Test alloc] init];
 //        [test do];
-        EUProblem *p = [[Problem20 alloc]init];
+        EUProblem *p = [[Problem16 alloc]init];
         [p solve];
         
         
