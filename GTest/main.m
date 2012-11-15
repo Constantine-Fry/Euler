@@ -37,7 +37,8 @@ int main(int argc, const char * argv[])
         [p solve];
         
         
-        
+        p = [[Problem1 alloc]init];
+        [p solve];
         
     }
     return 0;

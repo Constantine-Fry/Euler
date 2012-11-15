@@ -7,6 +7,7 @@
 //
 
 #import "BigNumber.h"
+#import "NSArray_ext.h"
 
 @implementation BigNumber{
     NSMutableArray *_numbers;
@@ -50,11 +51,7 @@
 
 
 -(NSNumber*)getSum{
-    double r= 0;
-    for (NSNumber *num  in _numbers) {
-        r += num.intValue;
-    }
-    return @(r);
+    return [_numbers sum];
 }
 
 -(int)intValue{
