@@ -7,7 +7,7 @@
 //
 
 #import "Problem20.h"
-
+#import "BigNumber.h"
 
 @implementation Problem20
 
@@ -52,68 +52,26 @@
 
 @implementation Problem20_NumArray
 
-
 -(void)solve{
-    NSArray* result2 = [self factorial:10];
-    NSNumber *num = [self getSum:result2];
+    BigNumber* result = [self factorial:10];
+    NSNumber *num = [result getSum];
     NSLog(@"sum(10!) = %@",num);
     
-    result2 = [self factorial:100];
-    num = [self getSum:result2];
+    result = [self factorial:100];
+    num = [result getSum];
     NSLog(@"sum(100!) = %@",num);
 }
 
-
-
-
--(NSNumber*)getSum:(NSArray*)number{
-    double r= 0;
-    for (NSNumber *num  in number) {
-        r += num.intValue;
-    }
-    return @(r);
+-(BigNumber*)factorial:(int)num{
+    BigNumber* bNum = [[BigNumber alloc]initWithNum:num];
+    [self fac:bNum n:num-1];
+    return bNum;
 }
 
-
-
--(NSMutableArray*)convertToArray:(int)num{
-    NSString *s = [NSString stringWithFormat:@"%d",num];
-    NSMutableArray* arr = [NSMutableArray arrayWithCapacity:s.length];
-    for (int i = 0; i < s.length ; i++) {
-        NSString *cc = [s substringWithRange:NSMakeRange(i, 1)];
-        [arr addObject:@(cc.intValue)];
-    }
-    return arr;
-}
-
--(NSArray*)factorial:(int)num{
-    NSMutableArray* arr = [self convertToArray:num];
-    [self fac:arr n:num-1];
-    return arr;
-}
-
-
--(void)fac:(NSMutableArray*)arr n:(int)n{
+-(void)fac:(BigNumber*)arr n:(int)n{
     if (!n) 
         return;
-    
-    
-    
-    int carry = 0;
-    int ii = (int)arr.count-1;
-    for (int i = ii; i >= 0; --i){
-        int a = [arr[i] intValue];
-        arr[i] = @((a * n) + carry );
-        a = [arr[i] intValue];
-        carry = a/10;
-        arr[i] = @(a % 10);
-    }
-    
-    while (carry) {
-        [arr insertObject:@(carry%10) atIndex:0];
-        carry = carry/10;
-    }
-    
+    [arr muplitplyTo:n];
     [self fac:arr n:n-1];
 }
 
