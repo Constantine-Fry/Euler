@@ -33,12 +33,10 @@ int main(int argc, const char * argv[])
         srand((unsigned)time(0));
 //        Test *test = [[Test alloc] init];
 //        [test do];
-        EUProblem *p = [[Problem16 alloc]init];
+        EUProblem *p = [[Problem2 alloc]init];
         [p solve];
         
-        
-        p = [[Problem1 alloc]init];
-        [p solve];
+
         
     }
     return 0;
