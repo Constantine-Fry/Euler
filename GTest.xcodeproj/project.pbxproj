@@ -17,18 +17,19 @@
 		4798612F1654BB1B00DD5E11 /* BigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798612E1654BB1B00DD5E11 /* BigNumber.m */; };
 		47BA2EDD1646A6CE004684BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BA2EDC1646A6CE004684BD /* Foundation.framework */; };
 		47BA2EE01646A6CE004684BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA2EDF1646A6CE004684BD /* main.m */; };
-		47BA2EE41646A6CE004684BD /* GTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47BA2EE31646A6CE004684BD /* GTest.1 */; };
+		47BA2EE41646A6CE004684BD /* GTest.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 47BA2EE31646A6CE004684BD /* GTest.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		47BA2ED61646A6CE004684BD /* CopyFiles */ = {
+		47BA2ED61646A6CE004684BD /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				47BA2EE41646A6CE004684BD /* GTest.1 in CopyFiles */,
+				47BA2EE41646A6CE004684BD /* GTest.1 in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		4707A85E16560F220093FE87 /* Problem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem2.h; path = GTest/Problem2.h; sourceTree = "<group>"; };
 		4707A85F16560F220093FE87 /* Problem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem2.m; path = GTest/Problem2.m; sourceTree = "<group>"; };
 		4707A861165617330093FE87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4707A862165619E40093FE87 /* appledeveloper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appledeveloper.png; sourceTree = "<group>"; };
 		47224ADD164F63E300A0C348 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = GTest/LinkedList.h; sourceTree = "<group>"; };
 		47224ADE164F63E300A0C348 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = GTest/LinkedList.m; sourceTree = "<group>"; };
 		479860CA16535E1D00DD5E11 /* EUProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUProblem.h; path = GTest/EUProblem.h; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		47BA2ECD1646A6CE004684BD = {
 			isa = PBXGroup;
 			children = (
+				4707A862165619E40093FE87 /* appledeveloper.png */,
 				4707A861165617330093FE87 /* README.md */,
 				479860D2165360CD00DD5E11 /* Euler */,
 				479860D1165360C100DD5E11 /* model */,
@@ -181,7 +184,8 @@
 			buildPhases = (
 				47BA2ED41646A6CE004684BD /* Sources */,
 				47BA2ED51646A6CE004684BD /* Frameworks */,
-				47BA2ED61646A6CE004684BD /* CopyFiles */,
+				47BA2ED61646A6CE004684BD /* Copy Files */,
+				4707A86416561A630093FE87 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -217,6 +221,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4707A86416561A630093FE87 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "curl -O http://projecteuler.net/profile/appledeveloper.png";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47BA2ED41646A6CE004684BD /* Sources */ = {
