@@ -234,7 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "curl -O http://projecteuler.net/profile/appledeveloper.png";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
