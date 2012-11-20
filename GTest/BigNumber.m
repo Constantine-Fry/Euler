@@ -50,6 +50,8 @@
 }
 
 
+
+
 -(NSNumber*)getSum{
     return [_numbers sum];
 }

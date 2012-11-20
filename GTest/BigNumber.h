@@ -14,10 +14,13 @@
 -(NSNumber*)getSum;
 -(int)intValue;
 
+
+
 #pragma mark Math Operation
 -(void)muplitplyTo:(int)num;
 
 -(void)powerOf:(int)num;
+
 
 #pragma mark -
 @end
