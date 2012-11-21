@@ -12,6 +12,7 @@
 #import "Problem1.h"
 #import "Problem2.h"
 #import "Problem4.h"
+#import "Problem5.h"
 
 #import "Problem16.h"
 #import "Problem20.h"

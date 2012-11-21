@@ -19,6 +19,7 @@
 		47BA2EDD1646A6CE004684BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BA2EDC1646A6CE004684BD /* Foundation.framework */; };
 		47BA2EE01646A6CE004684BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA2EDF1646A6CE004684BD /* main.m */; };
 		47BA2EE41646A6CE004684BD /* GTest.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 47BA2EE31646A6CE004684BD /* GTest.1 */; };
+		47BA7094165CCB230086636D /* Problem5.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA7093165CCB230086636D /* Problem5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,8 @@
 		47BA2EDF1646A6CE004684BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47BA2EE21646A6CE004684BD /* GTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTest-Prefix.pch"; sourceTree = "<group>"; };
 		47BA2EE31646A6CE004684BD /* GTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GTest.1; sourceTree = "<group>"; };
+		47BA7092165CCB230086636D /* Problem5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem5.h; path = GTest/Problem5.h; sourceTree = "<group>"; };
+		47BA7093165CCB230086636D /* Problem5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem5.m; path = GTest/Problem5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				4707A85F16560F220093FE87 /* Problem2.m */,
 				477F42391658DEBA0087F733 /* Problem4.h */,
 				477F423A1658DEBA0087F733 /* Problem4.m */,
+				47BA7092165CCB230086636D /* Problem5.h */,
+				47BA7093165CCB230086636D /* Problem5.m */,
 			);
 			name = "1-10";
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				4707A85D165561800093FE87 /* NSArray_ext.m in Sources */,
 				4707A86016560F220093FE87 /* Problem2.m in Sources */,
 				477F423B1658DEBA0087F733 /* Problem4.m in Sources */,
+				47BA7094165CCB230086636D /* Problem5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
