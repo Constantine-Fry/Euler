@@ -96,11 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				479861301654BEC000DD5E11 /* EUSDK.h */,
+				479860CA16535E1D00DD5E11 /* EUProblem.h */,
+				479860CB16535E1D00DD5E11 /* EUProblem.m */,
 				479860D4165360FA00DD5E11 /* 1-10 */,
 				479860D51653610400DD5E11 /* 11-20 */,
 				479860D3165360E200DD5E11 /* 21-29 */,
-				479860CA16535E1D00DD5E11 /* EUProblem.h */,
-				479860CB16535E1D00DD5E11 /* EUProblem.m */,
 			);
 			name = Euler;
 			sourceTree = "<group>";
