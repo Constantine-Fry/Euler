@@ -11,5 +11,10 @@
 @interface EUProblem : NSObject
 
 
+@property (assign)int test;
+@property (assign)int testResult;
+
 -(void)solve;
+-(int)solveFor:(int)num;
+-(int)solveForLong:(long)num;
 @end

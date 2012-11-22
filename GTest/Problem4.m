@@ -13,11 +13,14 @@
 
 
 -(void)solve{
-    NSLog(@"%d",[self findLargestPalindromMadeFromTwo2Numbers]);
-    NSLog(@"%d",[self findLargestPalindromMadeFromTwo3Numbers]);
+    NSLog(@"%d",[self solveFor:99]);
+    NSLog(@"%d",[self solveFor:999]);
 }
 
 
+-(int)solveFor:(int)num{
+    return [self findLargestPalindromWith2DigitsBetween:num/10 and:num];;
+}
 
 
 -(int)findLargestPalindromMadeFromTwo2Numbers{
@@ -50,7 +53,7 @@
         [palindroms addObjectsFromArray:[self generatePalindromsWithLeft:i max:max*max]];
     }
     [palindroms sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
-        return [obj1 compare:obj2];
+        return [obj2 compare:obj1];
     }];
     return palindroms;
 }
