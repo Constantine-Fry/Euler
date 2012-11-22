@@ -22,6 +22,8 @@
 		47BA7094165CCB230086636D /* Problem5.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA7093165CCB230086636D /* Problem5.m */; };
 		47CC7457165DF23A0095DC2D /* Problem6.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC7456165DF23A0095DC2D /* Problem6.m */; };
 		47CC745B165DF6580095DC2D /* Problem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC745A165DF6580095DC2D /* Problem3.m */; };
+		47E11570165E81A700D292AD /* Problem7.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E1156F165E81A700D292AD /* Problem7.m */; };
+		47E11574165E8EA800D292AD /* EUSieve.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E11573165E8EA800D292AD /* EUSieve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,10 @@
 		47CC7456165DF23A0095DC2D /* Problem6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem6.m; path = GTest/Problem6.m; sourceTree = "<group>"; };
 		47CC7459165DF6580095DC2D /* Problem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem3.h; path = GTest/Problem3.h; sourceTree = "<group>"; };
 		47CC745A165DF6580095DC2D /* Problem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem3.m; path = GTest/Problem3.m; sourceTree = "<group>"; };
+		47E1156E165E81A700D292AD /* Problem7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem7.h; path = GTest/Problem7.h; sourceTree = "<group>"; };
+		47E1156F165E81A700D292AD /* Problem7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem7.m; path = GTest/Problem7.m; sourceTree = "<group>"; };
+		47E11572165E8EA800D292AD /* EUSieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUSieve.h; path = GTest/EUSieve.h; sourceTree = "<group>"; };
+		47E11573165E8EA800D292AD /* EUSieve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUSieve.m; path = GTest/EUSieve.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				4798612E1654BB1B00DD5E11 /* BigNumber.m */,
 				4707A85B165561800093FE87 /* NSArray_ext.h */,
 				4707A85C165561800093FE87 /* NSArray_ext.m */,
+				47E11572165E8EA800D292AD /* EUSieve.h */,
+				47E11573165E8EA800D292AD /* EUSieve.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -133,6 +141,8 @@
 				47BA7093165CCB230086636D /* Problem5.m */,
 				47CC7455165DF23A0095DC2D /* Problem6.h */,
 				47CC7456165DF23A0095DC2D /* Problem6.m */,
+				47E1156E165E81A700D292AD /* Problem7.h */,
+				47E1156F165E81A700D292AD /* Problem7.m */,
 			);
 			name = "1-10";
 			sourceTree = "<group>";
@@ -276,6 +286,8 @@
 				47BA7094165CCB230086636D /* Problem5.m in Sources */,
 				47CC7457165DF23A0095DC2D /* Problem6.m in Sources */,
 				47CC745B165DF6580095DC2D /* Problem3.m in Sources */,
+				47E11570165E81A700D292AD /* Problem7.m in Sources */,
+				47E11574165E8EA800D292AD /* EUSieve.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

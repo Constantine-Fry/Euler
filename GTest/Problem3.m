@@ -10,7 +10,7 @@
 
 @implementation Problem3
 
-int step = 0;
+int step;
 -(void)solve{
     NSLog(@"%d",[self solveForLong:13195]);
     NSLog(@"steps = %d",step);

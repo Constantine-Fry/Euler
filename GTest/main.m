@@ -23,7 +23,7 @@ int main(int argc, const char * argv[])
         srand((unsigned)time(0));
 //        Test *test = [[Test alloc] init];
 //        [test do];
-        EUProblem *p = [[Problem3 alloc]init];
+        EUProblem *p = [[Problem7 alloc]init];
         [p solve];
 
         
