@@ -24,6 +24,7 @@
 		47CC745B165DF6580095DC2D /* Problem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC745A165DF6580095DC2D /* Problem3.m */; };
 		47E11570165E81A700D292AD /* Problem7.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E1156F165E81A700D292AD /* Problem7.m */; };
 		47E11574165E8EA800D292AD /* EUSieve.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E11573165E8EA800D292AD /* EUSieve.m */; };
+		47E11577165E906800D292AD /* Problem8.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E11576165E906800D292AD /* Problem8.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,8 @@
 		47E1156F165E81A700D292AD /* Problem7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem7.m; path = GTest/Problem7.m; sourceTree = "<group>"; };
 		47E11572165E8EA800D292AD /* EUSieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUSieve.h; path = GTest/EUSieve.h; sourceTree = "<group>"; };
 		47E11573165E8EA800D292AD /* EUSieve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUSieve.m; path = GTest/EUSieve.m; sourceTree = "<group>"; };
+		47E11575165E906800D292AD /* Problem8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem8.h; path = GTest/Problem8.h; sourceTree = "<group>"; };
+		47E11576165E906800D292AD /* Problem8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem8.m; path = GTest/Problem8.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				47CC7456165DF23A0095DC2D /* Problem6.m */,
 				47E1156E165E81A700D292AD /* Problem7.h */,
 				47E1156F165E81A700D292AD /* Problem7.m */,
+				47E11575165E906800D292AD /* Problem8.h */,
+				47E11576165E906800D292AD /* Problem8.m */,
 			);
 			name = "1-10";
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				47CC745B165DF6580095DC2D /* Problem3.m in Sources */,
 				47E11570165E81A700D292AD /* Problem7.m in Sources */,
 				47E11574165E8EA800D292AD /* EUSieve.m in Sources */,
+				47E11577165E906800D292AD /* Problem8.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
