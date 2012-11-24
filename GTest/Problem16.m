@@ -14,13 +14,13 @@
 -(void)solve{
     BigNumber *big = [[BigNumber alloc]initWithNum:2];
     [big powerOf:15];
-    NSLog(@"%d",[big intValue]);
-    NSLog(@"Sum(2^15) = %@",[big getSum]);
+    EULog(@"%d",[big intValue]);
+    EULog(@"Sum(2^15) = %@",[big getSum]);
     
     
     big = [[BigNumber alloc]initWithNum:2];
     [big powerOf:1000];
-    NSLog(@"Sum(2^1000) = %@",[big getSum]);
+    EULog(@"Sum(2^1000) = %@",[big getSum]);
 }
 
 @end

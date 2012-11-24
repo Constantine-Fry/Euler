@@ -13,38 +13,38 @@
 
 
 -(void)solve{
-    NSLog(@"%d",[self solveFor:99]);
-    NSLog(@"%d",[self solveFor:999]);
+    EULog(@"%@",[self solveFor:99]);
+    EULog(@"%@",[self solveFor:999]);
 }
 
 
--(int)solveFor:(int)num{
+-(NSNumber*)solveFor:(int)num{
     return [self findLargestPalindromWith2DigitsBetween:num/10 and:num];;
 }
 
 
--(int)findLargestPalindromMadeFromTwo2Numbers{
+-(NSNumber*)findLargestPalindromMadeFromTwo2Numbers{
     int max = 99;
     int min = 9;
     return [self findLargestPalindromWith2DigitsBetween:min and:max];
 }
--(int)findLargestPalindromMadeFromTwo3Numbers{
+-(NSNumber*)findLargestPalindromMadeFromTwo3Numbers{
     int max = 999;
     int min = 99;
     return [self findLargestPalindromWith2DigitsBetween:min and:max];
 }
 
--(int)findLargestPalindromWith2DigitsBetween:(int)min and:(int)max{
+-(NSNumber*)findLargestPalindromWith2DigitsBetween:(int)min and:(int)max{
     NSArray *palindroms = [self generatePalindromsBetweenMin:min andMax:max];
     for (NSNumber *num  in palindroms) {
         int a = num.intValue;
         for (int i = max; i > min; i--) {
             if (a/i <= max && a/i > min && a%i == 0 ) {
-                return a;
+                return @(a);
             }
         }
     }
-    return -1;
+    return @(-1);
 }
 
 -(NSArray*)generatePalindromsBetweenMin:(int)min andMax:(int)max{

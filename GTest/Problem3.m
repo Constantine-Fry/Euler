@@ -12,17 +12,17 @@
 
 int step;
 -(void)solve{
-    NSLog(@"%d",[self solveForLong:13195]);
-    NSLog(@"steps = %d",step);
+    EULog(@"%@",[self solveForLong:13195]);
+    EULog(@"steps = %d",step);
     step = 0;
-    NSLog(@"%d",[self solveForLong:600851475143]);
-    NSLog(@"steps = %d",step);
+    EULog(@"%@",[self solveForLong:600851475143]);
+    EULog(@"steps = %d",step);
 }
 
 
 //19
 //44
--(int)solveForLong:(long)num{
+-(NSNumber*)solveForLong:(long)num{
     long current = num;
     long max = -1;
     while (1) {
@@ -41,7 +41,7 @@ int step;
         }
     }
 
-    return (int)max;
+    return @(max);
 }
 
 @end

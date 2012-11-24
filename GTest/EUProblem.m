@@ -9,6 +9,13 @@
 #import "EUProblem.h"
 
 @implementation EUProblem
+- (id)init
+{
+    self = [super init];
+    if (self) {
+    }
+    return self;
+}
 
 -(void)check{
     if ([self isKindOfClass:[EUProblem class]]) {
@@ -20,14 +27,16 @@
     [self check];
 }
 
--(int)solveFor:(int)num{
+-(NSNumber*)solveFor:(int)num{
     [self check];
-    return -1;
+    return @(-1);
 }
 
--(int)solveForLong:(long)num{
+-(NSNumber*)solveForLong:(long)num{
     [self check];
-    return -1;
+    return @(-1);
 }
+
+
 
 @end

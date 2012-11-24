@@ -26,7 +26,7 @@ I created this project for improving my problem solving skills. I solve problems
 
 * I will add new abstract class EUAbstractPrinter and 3 subclasses:
 
-    * ConsolePrinter - for printing logs with NSLog()
+    * ConsolePrinter - for printing logs with EULog()
     * NSPrinter - for printin log in NStextView
     * UIPrinter - for printin log in UItextView(iOS support)
 

@@ -12,28 +12,28 @@
 @implementation Problem20
 
 -(void)solve{
-    NSLog(@"there is several ways to compute factorial!");
+    EULog(@"there is several ways to compute factorial!");
     
     EUProblem *p = [[Problem20_Recursive alloc]init];
-    NSLog(@"------------------------------");
-    NSLog(@"Recursive way:");
+    EULog(@"------------------------------");
+    EULog(@"Recursive way:");
     [p solve];
     
     p = [[Problem20_Iterative alloc]init];
-    NSLog(@"------------------------------");
-    NSLog(@"Iterative way:");
+    EULog(@"------------------------------");
+    EULog(@"Iterative way:");
     [p solve];
     
     p = [[Problem20_Gamma alloc]init];
-    NSLog(@"------------------------------");
-    NSLog(@"Gamma way:");
-    NSLog(@"http://blog.andrewwei.mu/?p=92");
+    EULog(@"------------------------------");
+    EULog(@"Gamma way:");
+    EULog(@"http://blog.andrewwei.mu/?p=92");
     
     [p solve];
     
     p = [[Problem20_NumArray alloc]init];
-    NSLog(@"------------------------------");
-    NSLog(@"Array way:");
+    EULog(@"------------------------------");
+    EULog(@"Array way:");
     [p solve];
     
     
@@ -55,11 +55,11 @@
 -(void)solve{
     BigNumber* result = [self factorial:10];
     NSNumber *num = [result getSum];
-    NSLog(@"sum(10!) = %@",num);
+    EULog(@"sum(10!) = %@",num);
     
     result = [self factorial:100];
     num = [result getSum];
-    NSLog(@"sum(100!) = %@",num);
+    EULog(@"sum(100!) = %@",num);
 }
 
 -(BigNumber*)factorial:(int)num{
@@ -91,10 +91,10 @@
 
 -(void)solve{
     double d = [self factorial:10];
-    NSLog(@"sum(10!) = %d",[self getSum:d]);
+    EULog(@"sum(10!) = %d",[self getSum:d]);
     
     d = [self factorial:100];
-    NSLog(@"sum(100!) = %d",[self getSum:d]);
+    EULog(@"sum(100!) = %d",[self getSum:d]);
 }
 
 

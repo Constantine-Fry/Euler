@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EULogger.h"
+
+
 
 @interface EUProblem : NSObject
 
@@ -16,7 +19,9 @@
 @property (assign)int test;
 @property (assign)int testResult;
 
+
+
 -(void)solve;
--(int)solveFor:(int)num;
--(int)solveForLong:(long)num;
+-(NSNumber*)solveFor:(int)num;
+-(NSNumber*)solveForLong:(long)num;
 @end

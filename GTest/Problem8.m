@@ -105,7 +105,7 @@
         }
     }
     
-    NSLog(@"%d",max);
+    EULog(@"%d",max);
 }
 
 @end

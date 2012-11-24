@@ -11,10 +11,8 @@
 @implementation EUSieve
 {
     NSMutableArray *_primes;
+    int _N;
 }
-int N = 200000;
-
-
 
 
 
@@ -22,29 +20,43 @@ int N = 200000;
 {
     self = [super init];
     if (self) {
-        _primes = [NSMutableArray arrayWithCapacity:200000];
-        [self fill];
+        _primes = [NSMutableArray arrayWithCapacity:_N];
+        [self fillWith:100000];
+
     }
     return self;
 }
 
--(void)fill{
-    [_primes addObject:@NO];
+
+-(void)fillWith:(int)num{
+    _N = num;
     
-    for(int i = 1; i < N; i++){
-        [_primes addObject:@YES];
-        
+    [self fill];
+
+}
+-(void)fill{
+    NSMutableArray *a = [NSMutableArray arrayWithCapacity:_N];
+    
+
+    [a addObject:@NO];
+    for(int i = 1; i < _N; i++){
+        [a addObject:@YES];    
     }
     
-    for (int i=2; i*i < N; i++)
-        if ([_primes[i] boolValue])
-            for (int j=i*i; j < N; j+=i)
-                _primes[j] = @NO;
+    for (int i=2; i*i < _N; i++)
+        if ([a[i] boolValue])
+            for (int j=i*i; j < _N; j+=i)
+                a[j] = @NO;
     
+    _primes = a;
 }
 
 
+
 -(BOOL)isPrimeNumer:(int)num{
+    if (num >= _N) {
+        [self fillWith:_N*2];
+    }
     return  [_primes[num] boolValue];
 }
 @end

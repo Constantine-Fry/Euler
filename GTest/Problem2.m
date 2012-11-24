@@ -11,11 +11,11 @@
 @implementation Problem2
 
 -(void)solve{
-    NSLog(@"Answer: %d",[self solveForLong:90]);
-    NSLog(@"Answer: %d",[self solveForLong:4000000]);
+    EULog(@"Answer: %@",[self solveForLong:90]);
+    EULog(@"Answer: %@",[self solveForLong:4000000]);
 }
 
--(int)solveForLong:(long)num{
+-(NSNumber*)solveForLong:(long)num{
     int sum = 0;
     long prev = 1;
     long current = 1;
@@ -35,7 +35,7 @@
         }
 
     }
-    return sum;
+    return @(sum);
 }
 
 @end

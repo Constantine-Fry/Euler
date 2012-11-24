@@ -13,19 +13,19 @@
 @implementation Problem1
 
 -(void)solve{
-    NSLog(@"10: %d",[self solveFor:10]);
-    NSLog(@"1000: %d",[self solveFor:1000]);
+    EULog(@"10: %@",[self solveFor:10]);
+    EULog(@"1000: %@",[self solveFor:1000]);
 }
 
 
--(int)solveFor:(int)num{
+-(NSNumber*)solveFor:(int)num{
     NSMutableArray *result = [@[] mutableCopy];
     for (int i = num-1; i > 0; i--) {
         if ((i%3) == 0 || (i%5) == 0) {
             [result addObject:@(i)];
         }
     }
-    return result.sum.intValue;
+    return result.sum;
 }
 
 @end

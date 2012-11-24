@@ -27,14 +27,14 @@
 
 extern int step;
 -(void)solve{
-    NSLog(@"%d, steps = %d",[self solveFor:6],step);
+    EULog(@"%@, steps = %d",[self solveFor:6],step);
     step = 0;
-    NSLog(@"%d, steps = %d",[self solveFor:10001],step);
+    EULog(@"%@, steps = %d",[self solveFor:10001],step);
 }
 
 
 
--(int)solveFor:(int)num{
+-(NSNumber*)solveFor:(int)num{
     int counter = 1;
     int cc = 3;
     while (counter != num) {
@@ -44,7 +44,7 @@ extern int step;
         }
         cc+=2;
     }
-    return cc-2;
+    return @(cc-2);
 }
 
 @end

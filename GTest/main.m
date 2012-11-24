@@ -12,21 +12,13 @@
 
 
 
-
-
-
-
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
         srand((unsigned)time(0));
-//        Test *test = [[Test alloc] init];
-//        [test do];
-        EUProblem *p = [[Problem9 alloc]init];
-        [p solve];
-
         
+        EUProblem *p = [[Problem10 alloc]init];
+        [p solve];
     }
     return 0;
 }

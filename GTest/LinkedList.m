@@ -7,12 +7,12 @@
 //
 
 #import "LinkedList.h"
-
+#import "EULogger.h"
 
 @implementation Item
 //
 //-(void)dealloc{
-//    NSLog(@"dealloc: %@",self.value);
+//    EULog(@"dealloc: %@",self.value);
 //}
 
 @end
@@ -20,13 +20,13 @@
 @implementation LinkedList
 
 -(void)mergeWith:(LinkedList*)list{
-    NSLog(@"%@ + %@",self,list);
+    EULog(@"%@ + %@",self,list);
     if (list.tail == nil) {
         return;
     }
     self.tail.next = list.head;
     self.tail = list.tail;
-    NSLog(@" = %@",self);
+    EULog(@" = %@",self);
 }
 
 -(void)addItem:(Item*)item{

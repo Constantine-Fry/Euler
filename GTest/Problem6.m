@@ -30,25 +30,25 @@
 
 
 
--(int)solve1For:(int)num{
-    return [self squreOfSum:num] - [self sumOfSquares:num];;
+-(NSNumber*)solve1For:(int)num{
+    return @([self squreOfSum:num] - [self sumOfSquares:num]);
 }
 
 
 
--(int)solveFor:(int)num{
+-(NSNumber*)solveFor:(int)num{
     int res1 = 0;
     int res2 = 0;
     for (int i = 0; i <= num; i++) {
         res1 += i;
         res2 += i*i;
     }
-    return res1*res1 - res2;
+    return @(res1*res1 - res2);
 }
 
 -(void)solve{
-    NSLog(@"10: %d",[self solveFor:10]);
-    NSLog(@"100: %d",[self solveFor:100]);
+    EULog(@"10: %@",[self solveFor:10]);
+    EULog(@"100: %@",[self solveFor:100]);
 }
 
 

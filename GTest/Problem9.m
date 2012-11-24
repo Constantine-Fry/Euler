@@ -30,9 +30,9 @@
             int left = a*a + b*b;
             
             if (left == c*c) {
-                NSLog(@"steps = %d",(int)self.steps);
-                NSLog(@"%d %d %d",a,b,c);
-                NSLog(@"a*b*c = %d",a*b*c);
+                EULog(@"steps = %d",(int)self.steps);
+                EULog(@"%d %d %d",a,b,c);
+                EULog(@"a*b*c = %d",a*b*c);
                 return;
             }
             

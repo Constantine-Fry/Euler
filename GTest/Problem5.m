@@ -28,7 +28,7 @@ int iterations = 0;
 }
 
 
--(int)solveFor:(int)num{
+-(NSNumber*)solveFor:(int)num{
     int result = 0;
     int step = 1;
     int maxGoodRresult = 0;
@@ -44,14 +44,14 @@ int iterations = 0;
             step = result;
         }
     }
-    return result;
+    return @(result);
 }
 
 -(void)solve{
     int a = 10;
-    NSLog(@"Divisible for 1-%d. Answer: %d. Solved with %d steps.",a,[self solveFor:a],iterations);
+    EULog(@"Divisible for 1-%d. Answer: %@. Solved with %d steps.",a,[self solveFor:a],iterations);
     a = 20;
-    NSLog(@"Divisible for 1-%d. Answer: %d. Solved with %d steps. ",a,[self solveFor:a],iterations);
+    EULog(@"Divisible for 1-%d. Answer: %@. Solved with %d steps. ",a,[self solveFor:a],iterations);
 }
 
 @end
