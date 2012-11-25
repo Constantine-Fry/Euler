@@ -38,6 +38,8 @@
 		4759FE8B1660C68C0030C1AE /* BigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798612E1654BB1B00DD5E11 /* BigNumber.m */; };
 		4759FE8C1660C68C0030C1AE /* NSArray_ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707A85C165561800093FE87 /* NSArray_ext.m */; };
 		4759FE8D1660C68C0030C1AE /* EUSieve.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E11573165E8EA800D292AD /* EUSieve.m */; };
+		4774DF321662048B00F2BCFA /* Problem11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DF311662048B00F2BCFA /* Problem11.m */; };
+		4774DF34166205A600F2BCFA /* Problem11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DF311662048B00F2BCFA /* Problem11.m */; };
 		477F423B1658DEBA0087F733 /* Problem4.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F423A1658DEBA0087F733 /* Problem4.m */; };
 		479860CC16535E1D00DD5E11 /* EUProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 479860CB16535E1D00DD5E11 /* EUProblem.m */; };
 		479860D016535E3600DD5E11 /* Problem20.m in Sources */ = {isa = PBXBuildFile; fileRef = 479860CF16535E3600DD5E11 /* Problem20.m */; };
@@ -98,6 +100,8 @@
 		4759FE461660C05F0030C1AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4759FE471660C05F0030C1AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4759FE4A1660C0600030C1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4774DF301662048B00F2BCFA /* Problem11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem11.h; path = GTest/Problem11.h; sourceTree = "<group>"; };
+		4774DF311662048B00F2BCFA /* Problem11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem11.m; path = GTest/Problem11.m; sourceTree = "<group>"; };
 		477F42391658DEBA0087F733 /* Problem4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem4.h; path = GTest/Problem4.h; sourceTree = "<group>"; };
 		477F423A1658DEBA0087F733 /* Problem4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem4.m; path = GTest/Problem4.m; sourceTree = "<group>"; };
 		479860CA16535E1D00DD5E11 /* EUProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUProblem.h; path = GTest/EUProblem.h; sourceTree = "<group>"; };
@@ -255,6 +259,8 @@
 		479860D51653610400DD5E11 /* 11-20 */ = {
 			isa = PBXGroup;
 			children = (
+				4774DF301662048B00F2BCFA /* Problem11.h */,
+				4774DF311662048B00F2BCFA /* Problem11.m */,
 				479861291654BAAA00DD5E11 /* Problem16.h */,
 				4798612A1654BAAA00DD5E11 /* Problem16.m */,
 				479860CE16535E3600DD5E11 /* Problem20.h */,
@@ -434,6 +440,7 @@
 				4759FE8B1660C68C0030C1AE /* BigNumber.m in Sources */,
 				4759FE8C1660C68C0030C1AE /* NSArray_ext.m in Sources */,
 				4759FE8D1660C68C0030C1AE /* EUSieve.m in Sources */,
+				4774DF34166205A600F2BCFA /* Problem11.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +467,7 @@
 				4754253B165F6E310043D826 /* Problem9.m in Sources */,
 				4759FE151660A6D60030C1AE /* Problem10.m in Sources */,
 				4759FE2D1660B7C00030C1AE /* EULogger.m in Sources */,
+				4774DF321662048B00F2BCFA /* Problem11.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +606,7 @@
 				4759FE4E1660C0600030C1AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47BA2ED21646A6CE004684BD /* Build configuration list for PBXProject "GTest" */ = {
 			isa = XCConfigurationList;

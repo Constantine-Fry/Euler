@@ -38,7 +38,8 @@ void EULog(NSString* format, ...){
 @implementation EUConsoleLogger
 
 -(void)printString:(NSString*)string{
-    NSLog(@"%@", string);
+    fputs([string UTF8String], stdout);
+    fputs("\n", stdout);
 }
 
 @end
