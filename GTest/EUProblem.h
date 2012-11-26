@@ -16,8 +16,8 @@
 
 @property (assign)long steps;
 @property (assign)BOOL canBeTested;
-@property (assign)int test;
-@property (assign)int testResult;
+@property (assign)int question;
+@property (assign)int answer;
 
 
 
