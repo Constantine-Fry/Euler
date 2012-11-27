@@ -10,6 +10,10 @@
 		4707A859165560CC0093FE87 /* Problem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707A858165560CC0093FE87 /* Problem1.m */; };
 		4707A85D165561800093FE87 /* NSArray_ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707A85C165561800093FE87 /* NSArray_ext.m */; };
 		4707A86016560F220093FE87 /* Problem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707A85F16560F220093FE87 /* Problem2.m */; };
+		4713EF1C16646DD7006D4A4D /* Problem13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713EF1B16646DD7006D4A4D /* Problem13.m */; };
+		4713EF1D16646DD7006D4A4D /* Problem13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713EF1B16646DD7006D4A4D /* Problem13.m */; };
+		4713EF1E16646DD7006D4A4D /* Problem13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713EF1B16646DD7006D4A4D /* Problem13.m */; };
+		4713EF2416646E82006D4A4D /* BigNumberTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713EF2116646E82006D4A4D /* BigNumberTest.m */; };
 		47224ADF164F63E300A0C348 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 47224ADE164F63E300A0C348 /* LinkedList.m */; };
 		4754253B165F6E310043D826 /* Problem9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4754253A165F6E310043D826 /* Problem9.m */; };
 		4759FE151660A6D60030C1AE /* Problem10.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759FE141660A6D60030C1AE /* Problem10.m */; };
@@ -106,6 +110,10 @@
 		4707A85F16560F220093FE87 /* Problem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem2.m; path = GTest/Problem2.m; sourceTree = "<group>"; };
 		4707A861165617330093FE87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4707A862165619E40093FE87 /* appledeveloper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appledeveloper.png; sourceTree = "<group>"; };
+		4713EF1A16646DD7006D4A4D /* Problem13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem13.h; path = GTest/Problem13.h; sourceTree = "<group>"; };
+		4713EF1B16646DD7006D4A4D /* Problem13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem13.m; path = GTest/Problem13.m; sourceTree = "<group>"; };
+		4713EF2016646E82006D4A4D /* BigNumberTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNumberTest.h; sourceTree = "<group>"; };
+		4713EF2116646E82006D4A4D /* BigNumberTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigNumberTest.m; sourceTree = "<group>"; };
 		47224ADD164F63E300A0C348 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = GTest/LinkedList.h; sourceTree = "<group>"; };
 		47224ADE164F63E300A0C348 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = GTest/LinkedList.m; sourceTree = "<group>"; };
 		47542539165F6E310043D826 /* Problem9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem9.h; path = GTest/Problem9.h; sourceTree = "<group>"; };
@@ -310,6 +318,8 @@
 				4774DF311662048B00F2BCFA /* Problem11.m */,
 				47B1919616633E0D0094B8EC /* Problem12.h */,
 				47B1919716633E0D0094B8EC /* Problem12.m */,
+				4713EF1A16646DD7006D4A4D /* Problem13.h */,
+				4713EF1B16646DD7006D4A4D /* Problem13.m */,
 				479861291654BAAA00DD5E11 /* Problem16.h */,
 				4798612A1654BAAA00DD5E11 /* Problem16.m */,
 				479860CE16535E3600DD5E11 /* Problem20.h */,
@@ -323,6 +333,8 @@
 			children = (
 				47B19276166349530094B8EC /* Problem12Test.h */,
 				47B19277166349530094B8EC /* Problem12Test.m */,
+				4713EF2016646E82006D4A4D /* BigNumberTest.h */,
+				4713EF2116646E82006D4A4D /* BigNumberTest.m */,
 				47B1925B166348A50094B8EC /* UnitTests.h */,
 				47B1925C166348A50094B8EC /* UnitTests.m */,
 				47B19256166348A50094B8EC /* Supporting Files */,
@@ -556,6 +568,7 @@
 				4759FE8D1660C68C0030C1AE /* EUSieve.m in Sources */,
 				4774DF34166205A600F2BCFA /* Problem11.m in Sources */,
 				47B1919A16633E140094B8EC /* Problem12.m in Sources */,
+				4713EF1D16646DD7006D4A4D /* Problem13.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +598,8 @@
 				47B19274166349130094B8EC /* NSArray_ext.m in Sources */,
 				47B19275166349130094B8EC /* EUSieve.m in Sources */,
 				47B19278166349530094B8EC /* Problem12Test.m in Sources */,
+				4713EF1E16646DD7006D4A4D /* Problem13.m in Sources */,
+				4713EF2416646E82006D4A4D /* BigNumberTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +628,7 @@
 				4759FE2D1660B7C00030C1AE /* EULogger.m in Sources */,
 				4774DF321662048B00F2BCFA /* Problem11.m in Sources */,
 				47B1919816633E0D0094B8EC /* Problem12.m in Sources */,
+				4713EF1C16646DD7006D4A4D /* Problem13.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +810,7 @@
 				47B19261166348A50094B8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47BA2ED21646A6CE004684BD /* Build configuration list for PBXProject "GTest" */ = {
 			isa = XCConfigurationList;

@@ -8,11 +8,16 @@
 
 #import "EUProblem.h"
 
-@interface BigNumber : EUProblem
+@interface BigNumber : NSObject
 - (id)initWithNum:(int)num;
+- (id)initWithString:(NSString*)num;
+-(NSString*)first10Numbers;
 
 -(NSNumber*)getSum;
 -(int)intValue;
+-(NSUInteger)count;
+-(NSNumber*)objectAtIndexedSubscript:(NSUInteger)index;
+-(NSString*)description;
 
 
 
@@ -20,6 +25,8 @@
 -(void)muplitplyTo:(int)num;
 
 -(void)powerOf:(int)num;
+
+-(void)plus:(BigNumber*)num;
 
 
 #pragma mark -
