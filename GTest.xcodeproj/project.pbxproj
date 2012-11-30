@@ -45,6 +45,10 @@
 		4774DF321662048B00F2BCFA /* Problem11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DF311662048B00F2BCFA /* Problem11.m */; };
 		4774DF34166205A600F2BCFA /* Problem11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774DF311662048B00F2BCFA /* Problem11.m */; };
 		477F423B1658DEBA0087F733 /* Problem4.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F423A1658DEBA0087F733 /* Problem4.m */; };
+		477F65DF16689BF900254D6B /* Problem17.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F65DE16689BF900254D6B /* Problem17.m */; };
+		477F65E016689BF900254D6B /* Problem17.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F65DE16689BF900254D6B /* Problem17.m */; };
+		477F65E41668A92500254D6B /* Problem17Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F65E31668A92500254D6B /* Problem17Test.m */; };
+		477F65E51668A96F00254D6B /* Problem17.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F65DE16689BF900254D6B /* Problem17.m */; };
 		479860CC16535E1D00DD5E11 /* EUProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 479860CB16535E1D00DD5E11 /* EUProblem.m */; };
 		479860D016535E3600DD5E11 /* Problem20.m in Sources */ = {isa = PBXBuildFile; fileRef = 479860CF16535E3600DD5E11 /* Problem20.m */; };
 		4798612B1654BAAA00DD5E11 /* Problem16.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798612A1654BAAA00DD5E11 /* Problem16.m */; };
@@ -147,6 +151,10 @@
 		4774DF311662048B00F2BCFA /* Problem11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem11.m; path = GTest/Problem11.m; sourceTree = "<group>"; };
 		477F42391658DEBA0087F733 /* Problem4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem4.h; path = GTest/Problem4.h; sourceTree = "<group>"; };
 		477F423A1658DEBA0087F733 /* Problem4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem4.m; path = GTest/Problem4.m; sourceTree = "<group>"; };
+		477F65DD16689BF900254D6B /* Problem17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem17.h; path = GTest/Problem17.h; sourceTree = "<group>"; };
+		477F65DE16689BF900254D6B /* Problem17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem17.m; path = GTest/Problem17.m; sourceTree = "<group>"; };
+		477F65E21668A92500254D6B /* Problem17Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem17Test.h; sourceTree = "<group>"; };
+		477F65E31668A92500254D6B /* Problem17Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem17Test.m; sourceTree = "<group>"; };
 		479860CA16535E1D00DD5E11 /* EUProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUProblem.h; path = GTest/EUProblem.h; sourceTree = "<group>"; };
 		479860CB16535E1D00DD5E11 /* EUProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUProblem.m; path = GTest/EUProblem.m; sourceTree = "<group>"; };
 		479860CE16535E3600DD5E11 /* Problem20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem20.h; path = GTest/Problem20.h; sourceTree = "<group>"; };
@@ -342,6 +350,8 @@
 				47E529E71667414900A5CA6B /* Problem15.m */,
 				479861291654BAAA00DD5E11 /* Problem16.h */,
 				4798612A1654BAAA00DD5E11 /* Problem16.m */,
+				477F65DD16689BF900254D6B /* Problem17.h */,
+				477F65DE16689BF900254D6B /* Problem17.m */,
 				479860CE16535E3600DD5E11 /* Problem20.h */,
 				479860CF16535E3600DD5E11 /* Problem20.m */,
 			);
@@ -357,6 +367,8 @@
 				47E529F516675D7C00A5CA6B /* Problem14Test.m */,
 				47E529EC16675A6400A5CA6B /* Problem15Test.h */,
 				47E529ED16675A6400A5CA6B /* Problem15Test.m */,
+				477F65E21668A92500254D6B /* Problem17Test.h */,
+				477F65E31668A92500254D6B /* Problem17Test.m */,
 				4713EF2016646E82006D4A4D /* BigNumberTest.h */,
 				4713EF2116646E82006D4A4D /* BigNumberTest.m */,
 				47B1925B166348A50094B8EC /* UnitTests.h */,
@@ -595,6 +607,7 @@
 				4713EF1D16646DD7006D4A4D /* Problem13.m in Sources */,
 				47E529E91667414900A5CA6B /* Problem15.m in Sources */,
 				47E529F216675D5000A5CA6B /* Problem14.m in Sources */,
+				477F65E016689BF900254D6B /* Problem17.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +643,8 @@
 				47E529EE16675A6400A5CA6B /* Problem15Test.m in Sources */,
 				47E529F316675D5000A5CA6B /* Problem14.m in Sources */,
 				47E529F616675D7C00A5CA6B /* Problem14Test.m in Sources */,
+				477F65E41668A92500254D6B /* Problem17Test.m in Sources */,
+				477F65E51668A96F00254D6B /* Problem17.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +676,7 @@
 				4713EF1C16646DD7006D4A4D /* Problem13.m in Sources */,
 				47E529E81667414900A5CA6B /* Problem15.m in Sources */,
 				47E529F116675D5000A5CA6B /* Problem14.m in Sources */,
+				477F65DF16689BF900254D6B /* Problem17.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

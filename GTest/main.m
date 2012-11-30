@@ -17,7 +17,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         srand((unsigned)time(0));
         
-        EUProblem *p = [[Problem14 alloc]init];
+        EUProblem *p = [[Problem17 alloc]init];
         [p solve];
     }
     return 0;
