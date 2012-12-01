@@ -29,6 +29,12 @@
 #import "Problem15.h"
 #import "Problem16.h"
 #import "Problem17.h"
+#import "Problem18.h"
+#import "Problem19.h"
 #import "Problem20.h"
+
+
+
+#import "Problem61.h"
 
 #endif

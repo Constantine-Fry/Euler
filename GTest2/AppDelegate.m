@@ -37,7 +37,7 @@
 }
 
 -(void)solve{
-    EUProblem *p = [[Problem10 alloc]init];
+    EUProblem *p = [[Problem19 alloc]init];
     [p solve];
 }
 

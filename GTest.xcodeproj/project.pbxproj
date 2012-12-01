@@ -86,6 +86,22 @@
 		47BA7094165CCB230086636D /* Problem5.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA7093165CCB230086636D /* Problem5.m */; };
 		47CC7457165DF23A0095DC2D /* Problem6.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC7456165DF23A0095DC2D /* Problem6.m */; };
 		47CC745B165DF6580095DC2D /* Problem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC745A165DF6580095DC2D /* Problem3.m */; };
+		47D120071669EF2700E4320D /* Problem18.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D120061669EF2700E4320D /* Problem18.m */; };
+		47D120081669EF2700E4320D /* Problem18.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D120061669EF2700E4320D /* Problem18.m */; };
+		47D120091669EF2700E4320D /* Problem18.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D120061669EF2700E4320D /* Problem18.m */; };
+		47D1200C1669EFDA00E4320D /* input18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47D1200B1669EFDA00E4320D /* input18.txt */; };
+		47D1200D1669EFDA00E4320D /* input18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47D1200B1669EFDA00E4320D /* input18.txt */; };
+		47D1200E1669F36600E4320D /* input18.txt in Copy Files */ = {isa = PBXBuildFile; fileRef = 47D1200B1669EFDA00E4320D /* input18.txt */; };
+		47D120101669F5AA00E4320D /* inputest18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47D1200F1669F5AA00E4320D /* inputest18.txt */; };
+		47D120111669F5AA00E4320D /* inputest18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47D1200F1669F5AA00E4320D /* inputest18.txt */; };
+		47D120151669F91D00E4320D /* Problem61.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D120141669F91D00E4320D /* Problem61.m */; };
+		47D120161669F91D00E4320D /* Problem61.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D120141669F91D00E4320D /* Problem61.m */; };
+		47D120171669F91D00E4320D /* Problem61.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D120141669F91D00E4320D /* Problem61.m */; };
+		47D120191669F95E00E4320D /* input61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47D120181669F95E00E4320D /* input61.txt */; };
+		47D1201A1669F95E00E4320D /* input61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47D120181669F95E00E4320D /* input61.txt */; };
+		47D1201D1669FD2D00E4320D /* Problem19.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D1201C1669FD2D00E4320D /* Problem19.m */; };
+		47D1201E1669FD2D00E4320D /* Problem19.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D1201C1669FD2D00E4320D /* Problem19.m */; };
+		47D1201F1669FD2D00E4320D /* Problem19.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D1201C1669FD2D00E4320D /* Problem19.m */; };
 		47E11570165E81A700D292AD /* Problem7.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E1156F165E81A700D292AD /* Problem7.m */; };
 		47E11574165E8EA800D292AD /* EUSieve.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E11573165E8EA800D292AD /* EUSieve.m */; };
 		47E11577165E906800D292AD /* Problem8.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E11576165E906800D292AD /* Problem8.m */; };
@@ -106,6 +122,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				47D1200E1669F36600E4320D /* input18.txt in Copy Files */,
 				47BA2EE41646A6CE004684BD /* GTest.1 in Copy Files */,
 			);
 			name = "Copy Files";
@@ -186,6 +203,15 @@
 		47CC7456165DF23A0095DC2D /* Problem6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem6.m; path = GTest/Problem6.m; sourceTree = "<group>"; };
 		47CC7459165DF6580095DC2D /* Problem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem3.h; path = GTest/Problem3.h; sourceTree = "<group>"; };
 		47CC745A165DF6580095DC2D /* Problem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem3.m; path = GTest/Problem3.m; sourceTree = "<group>"; };
+		47D120051669EF2700E4320D /* Problem18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem18.h; path = GTest/Problem18.h; sourceTree = "<group>"; };
+		47D120061669EF2700E4320D /* Problem18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem18.m; path = GTest/Problem18.m; sourceTree = "<group>"; };
+		47D1200B1669EFDA00E4320D /* input18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input18.txt; path = GTest/input18.txt; sourceTree = "<group>"; };
+		47D1200F1669F5AA00E4320D /* inputest18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = inputest18.txt; path = GTest/inputest18.txt; sourceTree = "<group>"; };
+		47D120131669F91D00E4320D /* Problem61.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem61.h; path = GTest/Problem61.h; sourceTree = "<group>"; };
+		47D120141669F91D00E4320D /* Problem61.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem61.m; path = GTest/Problem61.m; sourceTree = "<group>"; };
+		47D120181669F95E00E4320D /* input61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input61.txt; path = GTest/input61.txt; sourceTree = "<group>"; };
+		47D1201B1669FD2D00E4320D /* Problem19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem19.h; path = GTest/Problem19.h; sourceTree = "<group>"; };
+		47D1201C1669FD2D00E4320D /* Problem19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem19.m; path = GTest/Problem19.m; sourceTree = "<group>"; };
 		47E1156E165E81A700D292AD /* Problem7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem7.h; path = GTest/Problem7.h; sourceTree = "<group>"; };
 		47E1156F165E81A700D292AD /* Problem7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem7.m; path = GTest/Problem7.m; sourceTree = "<group>"; };
 		47E11572165E8EA800D292AD /* EUSieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUSieve.h; path = GTest/EUSieve.h; sourceTree = "<group>"; };
@@ -297,6 +323,7 @@
 				479860D4165360FA00DD5E11 /* 1-10 */,
 				479860D51653610400DD5E11 /* 11-20 */,
 				479860D3165360E200DD5E11 /* 21-29 */,
+				47D120121669F90000E4320D /* 60-69 */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -352,6 +379,12 @@
 				4798612A1654BAAA00DD5E11 /* Problem16.m */,
 				477F65DD16689BF900254D6B /* Problem17.h */,
 				477F65DE16689BF900254D6B /* Problem17.m */,
+				47D120051669EF2700E4320D /* Problem18.h */,
+				47D120061669EF2700E4320D /* Problem18.m */,
+				47D1200B1669EFDA00E4320D /* input18.txt */,
+				47D1200F1669F5AA00E4320D /* inputest18.txt */,
+				47D1201B1669FD2D00E4320D /* Problem19.h */,
+				47D1201C1669FD2D00E4320D /* Problem19.m */,
 				479860CE16535E3600DD5E11 /* Problem20.h */,
 				479860CF16535E3600DD5E11 /* Problem20.m */,
 			);
@@ -443,6 +476,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47D120121669F90000E4320D /* 60-69 */ = {
+			isa = PBXGroup;
+			children = (
+				47D120131669F91D00E4320D /* Problem61.h */,
+				47D120141669F91D00E4320D /* Problem61.m */,
+				47D120181669F95E00E4320D /* input61.txt */,
+			);
+			name = "60-69";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -488,7 +531,7 @@
 				47BA2ED41646A6CE004684BD /* Sources */,
 				47BA2ED51646A6CE004684BD /* Frameworks */,
 				47BA2ED61646A6CE004684BD /* Copy Files */,
-				4707A86416561A630093FE87 /* ShellScript */,
+				4707A86416561A630093FE87 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -535,6 +578,9 @@
 				4759FE3F1660C05F0030C1AE /* InfoPlist.strings in Resources */,
 				4759FE451660C05F0030C1AE /* Credits.rtf in Resources */,
 				4759FE4B1660C0600030C1AE /* MainMenu.xib in Resources */,
+				47D1200C1669EFDA00E4320D /* input18.txt in Resources */,
+				47D120101669F5AA00E4320D /* inputest18.txt in Resources */,
+				47D120191669F95E00E4320D /* input61.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,19 +589,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B1925A166348A50094B8EC /* InfoPlist.strings in Resources */,
+				47D1200D1669EFDA00E4320D /* input18.txt in Resources */,
+				47D120111669F5AA00E4320D /* inputest18.txt in Resources */,
+				47D1201A1669F95E00E4320D /* input61.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4707A86416561A630093FE87 /* ShellScript */ = {
+		4707A86416561A630093FE87 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,6 +658,9 @@
 				47E529E91667414900A5CA6B /* Problem15.m in Sources */,
 				47E529F216675D5000A5CA6B /* Problem14.m in Sources */,
 				477F65E016689BF900254D6B /* Problem17.m in Sources */,
+				47D120081669EF2700E4320D /* Problem18.m in Sources */,
+				47D120161669F91D00E4320D /* Problem61.m in Sources */,
+				47D1201E1669FD2D00E4320D /* Problem19.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +698,9 @@
 				47E529F616675D7C00A5CA6B /* Problem14Test.m in Sources */,
 				477F65E41668A92500254D6B /* Problem17Test.m in Sources */,
 				477F65E51668A96F00254D6B /* Problem17.m in Sources */,
+				47D120091669EF2700E4320D /* Problem18.m in Sources */,
+				47D120171669F91D00E4320D /* Problem61.m in Sources */,
+				47D1201F1669FD2D00E4320D /* Problem19.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +733,9 @@
 				47E529E81667414900A5CA6B /* Problem15.m in Sources */,
 				47E529F116675D5000A5CA6B /* Problem14.m in Sources */,
 				477F65DF16689BF900254D6B /* Problem17.m in Sources */,
+				47D120071669EF2700E4320D /* Problem18.m in Sources */,
+				47D120151669F91D00E4320D /* Problem61.m in Sources */,
+				47D1201D1669FD2D00E4320D /* Problem19.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
