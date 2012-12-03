@@ -116,6 +116,11 @@
 		47EF6DC6166C857300DBB0D6 /* Problem21.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DC5166C857300DBB0D6 /* Problem21.m */; };
 		47EF6DC8166C896100DBB0D6 /* Problem21.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DC5166C857300DBB0D6 /* Problem21.m */; };
 		47EF6DC9166C896200DBB0D6 /* Problem21.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DC5166C857300DBB0D6 /* Problem21.m */; };
+		47EF6DCC166C8EC900DBB0D6 /* Problem22.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DCB166C8EC900DBB0D6 /* Problem22.m */; };
+		47EF6DCD166C8ED000DBB0D6 /* Problem22.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DCB166C8EC900DBB0D6 /* Problem22.m */; };
+		47EF6DCE166C8ED100DBB0D6 /* Problem22.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DCB166C8EC900DBB0D6 /* Problem22.m */; };
+		47EF6DD0166C8EE800DBB0D6 /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47EF6DCF166C8EE800DBB0D6 /* names.txt */; };
+		47EF6DD1166C8EE800DBB0D6 /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47EF6DCF166C8EE800DBB0D6 /* names.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -231,6 +236,9 @@
 		47E529F516675D7C00A5CA6B /* Problem14Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem14Test.m; sourceTree = "<group>"; };
 		47EF6DC4166C857300DBB0D6 /* Problem21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem21.h; path = GTest/Problem21.h; sourceTree = "<group>"; };
 		47EF6DC5166C857300DBB0D6 /* Problem21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem21.m; path = GTest/Problem21.m; sourceTree = "<group>"; };
+		47EF6DCA166C8EC900DBB0D6 /* Problem22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem22.h; path = GTest/Problem22.h; sourceTree = "<group>"; };
+		47EF6DCB166C8EC900DBB0D6 /* Problem22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem22.m; path = GTest/Problem22.m; sourceTree = "<group>"; };
+		47EF6DCF166C8EE800DBB0D6 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = names.txt; path = ../../Desktop/names.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +346,9 @@
 			children = (
 				47EF6DC4166C857300DBB0D6 /* Problem21.h */,
 				47EF6DC5166C857300DBB0D6 /* Problem21.m */,
+				47EF6DCA166C8EC900DBB0D6 /* Problem22.h */,
+				47EF6DCB166C8EC900DBB0D6 /* Problem22.m */,
+				47EF6DCF166C8EE800DBB0D6 /* names.txt */,
 			);
 			name = "21-29";
 			sourceTree = "<group>";
@@ -588,6 +599,7 @@
 				47D1200C1669EFDA00E4320D /* input18.txt in Resources */,
 				47D120101669F5AA00E4320D /* inputest18.txt in Resources */,
 				47D120191669F95E00E4320D /* input61.txt in Resources */,
+				47EF6DD0166C8EE800DBB0D6 /* names.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +611,7 @@
 				47D1200D1669EFDA00E4320D /* input18.txt in Resources */,
 				47D120111669F5AA00E4320D /* inputest18.txt in Resources */,
 				47D1201A1669F95E00E4320D /* input61.txt in Resources */,
+				47EF6DD1166C8EE800DBB0D6 /* names.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +682,7 @@
 				47D120161669F91D00E4320D /* Problem61.m in Sources */,
 				47D1201E1669FD2D00E4320D /* Problem19.m in Sources */,
 				47EF6DC8166C896100DBB0D6 /* Problem21.m in Sources */,
+				47EF6DCD166C8ED000DBB0D6 /* Problem22.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,6 +724,7 @@
 				47D120171669F91D00E4320D /* Problem61.m in Sources */,
 				47D1201F1669FD2D00E4320D /* Problem19.m in Sources */,
 				47EF6DC9166C896200DBB0D6 /* Problem21.m in Sources */,
+				47EF6DCE166C8ED100DBB0D6 /* Problem22.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +761,7 @@
 				47D120151669F91D00E4320D /* Problem61.m in Sources */,
 				47D1201D1669FD2D00E4320D /* Problem19.m in Sources */,
 				47EF6DC6166C857300DBB0D6 /* Problem21.m in Sources */,
+				47EF6DCC166C8EC900DBB0D6 /* Problem22.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
