@@ -113,6 +113,9 @@
 		47E529F216675D5000A5CA6B /* Problem14.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E529F016675D4F00A5CA6B /* Problem14.m */; };
 		47E529F316675D5000A5CA6B /* Problem14.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E529F016675D4F00A5CA6B /* Problem14.m */; };
 		47E529F616675D7C00A5CA6B /* Problem14Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E529F516675D7C00A5CA6B /* Problem14Test.m */; };
+		47EF6DC6166C857300DBB0D6 /* Problem21.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DC5166C857300DBB0D6 /* Problem21.m */; };
+		47EF6DC8166C896100DBB0D6 /* Problem21.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DC5166C857300DBB0D6 /* Problem21.m */; };
+		47EF6DC9166C896200DBB0D6 /* Problem21.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DC5166C857300DBB0D6 /* Problem21.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -226,6 +229,8 @@
 		47E529F016675D4F00A5CA6B /* Problem14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem14.m; path = GTest/Problem14.m; sourceTree = "<group>"; };
 		47E529F416675D7C00A5CA6B /* Problem14Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem14Test.h; sourceTree = "<group>"; };
 		47E529F516675D7C00A5CA6B /* Problem14Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem14Test.m; sourceTree = "<group>"; };
+		47EF6DC4166C857300DBB0D6 /* Problem21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem21.h; path = GTest/Problem21.h; sourceTree = "<group>"; };
+		47EF6DC5166C857300DBB0D6 /* Problem21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem21.m; path = GTest/Problem21.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +336,8 @@
 		479860D3165360E200DD5E11 /* 21-29 */ = {
 			isa = PBXGroup;
 			children = (
+				47EF6DC4166C857300DBB0D6 /* Problem21.h */,
+				47EF6DC5166C857300DBB0D6 /* Problem21.m */,
 			);
 			name = "21-29";
 			sourceTree = "<group>";
@@ -661,6 +668,7 @@
 				47D120081669EF2700E4320D /* Problem18.m in Sources */,
 				47D120161669F91D00E4320D /* Problem61.m in Sources */,
 				47D1201E1669FD2D00E4320D /* Problem19.m in Sources */,
+				47EF6DC8166C896100DBB0D6 /* Problem21.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +709,7 @@
 				47D120091669EF2700E4320D /* Problem18.m in Sources */,
 				47D120171669F91D00E4320D /* Problem61.m in Sources */,
 				47D1201F1669FD2D00E4320D /* Problem19.m in Sources */,
+				47EF6DC9166C896200DBB0D6 /* Problem21.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,6 +745,7 @@
 				47D120071669EF2700E4320D /* Problem18.m in Sources */,
 				47D120151669F91D00E4320D /* Problem61.m in Sources */,
 				47D1201D1669FD2D00E4320D /* Problem19.m in Sources */,
+				47EF6DC6166C857300DBB0D6 /* Problem21.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
