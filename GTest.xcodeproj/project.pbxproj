@@ -53,6 +53,12 @@
 		479860D016535E3600DD5E11 /* Problem20.m in Sources */ = {isa = PBXBuildFile; fileRef = 479860CF16535E3600DD5E11 /* Problem20.m */; };
 		4798612B1654BAAA00DD5E11 /* Problem16.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798612A1654BAAA00DD5E11 /* Problem16.m */; };
 		4798612F1654BB1B00DD5E11 /* BigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798612E1654BB1B00DD5E11 /* BigNumber.m */; };
+		47A73C83166DBC9F008A9F0D /* Problem23.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A73C82166DBC9F008A9F0D /* Problem23.m */; };
+		47A73C84166DBC9F008A9F0D /* Problem23.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A73C82166DBC9F008A9F0D /* Problem23.m */; };
+		47A73C85166DBC9F008A9F0D /* Problem23.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A73C82166DBC9F008A9F0D /* Problem23.m */; };
+		47A73C89166DBD3D008A9F0D /* EUProperDivisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A73C88166DBD3D008A9F0D /* EUProperDivisor.m */; };
+		47A73C8A166DBD3D008A9F0D /* EUProperDivisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A73C88166DBD3D008A9F0D /* EUProperDivisor.m */; };
+		47A73C8B166DBD3D008A9F0D /* EUProperDivisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A73C88166DBD3D008A9F0D /* EUProperDivisor.m */; };
 		47B1919816633E0D0094B8EC /* Problem12.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B1919716633E0D0094B8EC /* Problem12.m */; };
 		47B1919A16633E140094B8EC /* Problem12.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B1919716633E0D0094B8EC /* Problem12.m */; };
 		47B19253166348A50094B8EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B19234166345A30094B8EC /* SenTestingKit.framework */; };
@@ -189,6 +195,10 @@
 		4798612D1654BB1B00DD5E11 /* BigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigNumber.h; path = GTest/BigNumber.h; sourceTree = "<group>"; };
 		4798612E1654BB1B00DD5E11 /* BigNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigNumber.m; path = GTest/BigNumber.m; sourceTree = "<group>"; };
 		479861301654BEC000DD5E11 /* EUSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EUSDK.h; path = GTest/EUSDK.h; sourceTree = "<group>"; };
+		47A73C81166DBC9F008A9F0D /* Problem23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem23.h; path = GTest/Problem23.h; sourceTree = "<group>"; };
+		47A73C82166DBC9F008A9F0D /* Problem23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem23.m; path = GTest/Problem23.m; sourceTree = "<group>"; };
+		47A73C87166DBD3D008A9F0D /* EUProperDivisor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUProperDivisor.h; path = GTest/EUProperDivisor.h; sourceTree = "<group>"; };
+		47A73C88166DBD3D008A9F0D /* EUProperDivisor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUProperDivisor.m; path = GTest/EUProperDivisor.m; sourceTree = "<group>"; };
 		47B1919616633E0D0094B8EC /* Problem12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem12.h; path = GTest/Problem12.h; sourceTree = "<group>"; };
 		47B1919716633E0D0094B8EC /* Problem12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem12.m; path = GTest/Problem12.m; sourceTree = "<group>"; };
 		47B19234166345A30094B8EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -323,6 +333,8 @@
 				4707A85C165561800093FE87 /* NSArray_ext.m */,
 				47E11572165E8EA800D292AD /* EUSieve.h */,
 				47E11573165E8EA800D292AD /* EUSieve.m */,
+				47A73C87166DBD3D008A9F0D /* EUProperDivisor.h */,
+				47A73C88166DBD3D008A9F0D /* EUProperDivisor.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -349,6 +361,8 @@
 				47EF6DCA166C8EC900DBB0D6 /* Problem22.h */,
 				47EF6DCB166C8EC900DBB0D6 /* Problem22.m */,
 				47EF6DCF166C8EE800DBB0D6 /* names.txt */,
+				47A73C81166DBC9F008A9F0D /* Problem23.h */,
+				47A73C82166DBC9F008A9F0D /* Problem23.m */,
 			);
 			name = "21-29";
 			sourceTree = "<group>";
@@ -683,6 +697,8 @@
 				47D1201E1669FD2D00E4320D /* Problem19.m in Sources */,
 				47EF6DC8166C896100DBB0D6 /* Problem21.m in Sources */,
 				47EF6DCD166C8ED000DBB0D6 /* Problem22.m in Sources */,
+				47A73C84166DBC9F008A9F0D /* Problem23.m in Sources */,
+				47A73C8A166DBD3D008A9F0D /* EUProperDivisor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,6 +741,8 @@
 				47D1201F1669FD2D00E4320D /* Problem19.m in Sources */,
 				47EF6DC9166C896200DBB0D6 /* Problem21.m in Sources */,
 				47EF6DCE166C8ED100DBB0D6 /* Problem22.m in Sources */,
+				47A73C85166DBC9F008A9F0D /* Problem23.m in Sources */,
+				47A73C8B166DBD3D008A9F0D /* EUProperDivisor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,6 +780,8 @@
 				47D1201D1669FD2D00E4320D /* Problem19.m in Sources */,
 				47EF6DC6166C857300DBB0D6 /* Problem21.m in Sources */,
 				47EF6DCC166C8EC900DBB0D6 /* Problem22.m in Sources */,
+				47A73C83166DBC9F008A9F0D /* Problem23.m in Sources */,
+				47A73C89166DBD3D008A9F0D /* EUProperDivisor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,32 +7,31 @@
 //
 
 #import "Problem21.h"
+#import "EUProperDivisor.h"
 
-@implementation Problem21
-
-
--(long)getD:(long)num{
-    long sum = 0;
-    for (int i = num/2; i > 0; i--) {
-        if (num%i == 0) {
-            sum+=i;
-        }
-    }
-    return sum;
+@implementation Problem21{
+    EUProperDivisor *_pd;
 }
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        _pd = [[EUProperDivisor alloc]init];
+    }
+    return self;
+}
+
+
 
 -(void)solve{
     int conter = 0;
     for (long a = 10000; a > 0; a--) {
-        long b = [self getD:a];
-        if (a != b) {
-            long c = [self getD:b];
-            if (c == a) {
-                EULog(@"%d,%d",b,a);
-                conter += b + a;
-            }
+        long b = [_pd getD:a];
+        if ([_pd isAmicableNumbers:a b:b]) {
+            EULog(@"%d,%d",b,a);
+            conter += b + a;
         }
-
     }
     EULog(@"Answer:%d",conter/2);
 }
