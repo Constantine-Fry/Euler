@@ -9,6 +9,8 @@
 #import "EUProblem.h"
 
 @interface BigNumber : NSObject
+
+- (id)initWithArray:(NSMutableArray*)num;
 - (id)initWithNum:(int)num;
 - (id)initWithString:(NSString*)num;
 -(NSString*)first10Numbers;

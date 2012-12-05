@@ -36,6 +36,8 @@
 #import "Problem21.h"
 #import "Problem22.h"
 #import "Problem23.h"
+#import "Problem24.h"
+#import "Problem25.h"
 
 
 #import "Problem61.h"

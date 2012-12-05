@@ -16,6 +16,14 @@
 		4713EF2416646E82006D4A4D /* BigNumberTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713EF2116646E82006D4A4D /* BigNumberTest.m */; };
 		47224ADF164F63E300A0C348 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 47224ADE164F63E300A0C348 /* LinkedList.m */; };
 		4754253B165F6E310043D826 /* Problem9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4754253A165F6E310043D826 /* Problem9.m */; };
+		4756D5B8166F2C5F00F56A0D /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4756D5B7166F2C5F00F56A0D /* names.txt */; };
+		4756D5B9166F2C5F00F56A0D /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4756D5B7166F2C5F00F56A0D /* names.txt */; };
+		4756D5BD166F2D0B00F56A0D /* Problem24.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756D5BC166F2D0B00F56A0D /* Problem24.m */; };
+		4756D5BE166F2D0B00F56A0D /* Problem24.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756D5BC166F2D0B00F56A0D /* Problem24.m */; };
+		4756D5BF166F2D0B00F56A0D /* Problem24.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756D5BC166F2D0B00F56A0D /* Problem24.m */; };
+		4756D5C2166F388C00F56A0D /* Problem25.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756D5C1166F388C00F56A0D /* Problem25.m */; };
+		4756D5C3166F388C00F56A0D /* Problem25.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756D5C1166F388C00F56A0D /* Problem25.m */; };
+		4756D5C4166F388C00F56A0D /* Problem25.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756D5C1166F388C00F56A0D /* Problem25.m */; };
 		4759FE151660A6D60030C1AE /* Problem10.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759FE141660A6D60030C1AE /* Problem10.m */; };
 		4759FE2D1660B7C00030C1AE /* EULogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759FE2C1660B7C00030C1AE /* EULogger.m */; };
 		4759FE351660C05F0030C1AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759FE341660C05F0030C1AE /* Cocoa.framework */; };
@@ -125,8 +133,6 @@
 		47EF6DCC166C8EC900DBB0D6 /* Problem22.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DCB166C8EC900DBB0D6 /* Problem22.m */; };
 		47EF6DCD166C8ED000DBB0D6 /* Problem22.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DCB166C8EC900DBB0D6 /* Problem22.m */; };
 		47EF6DCE166C8ED100DBB0D6 /* Problem22.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF6DCB166C8EC900DBB0D6 /* Problem22.m */; };
-		47EF6DD0166C8EE800DBB0D6 /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47EF6DCF166C8EE800DBB0D6 /* names.txt */; };
-		47EF6DD1166C8EE800DBB0D6 /* names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47EF6DCF166C8EE800DBB0D6 /* names.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -161,6 +167,11 @@
 		47224ADE164F63E300A0C348 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = GTest/LinkedList.m; sourceTree = "<group>"; };
 		47542539165F6E310043D826 /* Problem9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem9.h; path = GTest/Problem9.h; sourceTree = "<group>"; };
 		4754253A165F6E310043D826 /* Problem9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem9.m; path = GTest/Problem9.m; sourceTree = "<group>"; };
+		4756D5B7166F2C5F00F56A0D /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = names.txt; path = GTest/names.txt; sourceTree = "<group>"; };
+		4756D5BB166F2D0B00F56A0D /* Problem24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem24.h; path = GTest/Problem24.h; sourceTree = "<group>"; };
+		4756D5BC166F2D0B00F56A0D /* Problem24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem24.m; path = GTest/Problem24.m; sourceTree = "<group>"; };
+		4756D5C0166F388C00F56A0D /* Problem25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem25.h; path = GTest/Problem25.h; sourceTree = "<group>"; };
+		4756D5C1166F388C00F56A0D /* Problem25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem25.m; path = GTest/Problem25.m; sourceTree = "<group>"; };
 		4759FE131660A6D60030C1AE /* Problem10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem10.h; path = GTest/Problem10.h; sourceTree = "<group>"; };
 		4759FE141660A6D60030C1AE /* Problem10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem10.m; path = GTest/Problem10.m; sourceTree = "<group>"; };
 		4759FE2B1660B7C00030C1AE /* EULogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EULogger.h; sourceTree = "<group>"; };
@@ -248,7 +259,6 @@
 		47EF6DC5166C857300DBB0D6 /* Problem21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem21.m; path = GTest/Problem21.m; sourceTree = "<group>"; };
 		47EF6DCA166C8EC900DBB0D6 /* Problem22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Problem22.h; path = GTest/Problem22.h; sourceTree = "<group>"; };
 		47EF6DCB166C8EC900DBB0D6 /* Problem22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Problem22.m; path = GTest/Problem22.m; sourceTree = "<group>"; };
-		47EF6DCF166C8EE800DBB0D6 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = names.txt; path = ../../Desktop/names.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,9 +370,13 @@
 				47EF6DC5166C857300DBB0D6 /* Problem21.m */,
 				47EF6DCA166C8EC900DBB0D6 /* Problem22.h */,
 				47EF6DCB166C8EC900DBB0D6 /* Problem22.m */,
-				47EF6DCF166C8EE800DBB0D6 /* names.txt */,
+				4756D5B7166F2C5F00F56A0D /* names.txt */,
 				47A73C81166DBC9F008A9F0D /* Problem23.h */,
 				47A73C82166DBC9F008A9F0D /* Problem23.m */,
+				4756D5BB166F2D0B00F56A0D /* Problem24.h */,
+				4756D5BC166F2D0B00F56A0D /* Problem24.m */,
+				4756D5C0166F388C00F56A0D /* Problem25.h */,
+				4756D5C1166F388C00F56A0D /* Problem25.m */,
 			);
 			name = "21-29";
 			sourceTree = "<group>";
@@ -613,7 +627,7 @@
 				47D1200C1669EFDA00E4320D /* input18.txt in Resources */,
 				47D120101669F5AA00E4320D /* inputest18.txt in Resources */,
 				47D120191669F95E00E4320D /* input61.txt in Resources */,
-				47EF6DD0166C8EE800DBB0D6 /* names.txt in Resources */,
+				4756D5B8166F2C5F00F56A0D /* names.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +639,7 @@
 				47D1200D1669EFDA00E4320D /* input18.txt in Resources */,
 				47D120111669F5AA00E4320D /* inputest18.txt in Resources */,
 				47D1201A1669F95E00E4320D /* input61.txt in Resources */,
-				47EF6DD1166C8EE800DBB0D6 /* names.txt in Resources */,
+				4756D5B9166F2C5F00F56A0D /* names.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,6 +713,8 @@
 				47EF6DCD166C8ED000DBB0D6 /* Problem22.m in Sources */,
 				47A73C84166DBC9F008A9F0D /* Problem23.m in Sources */,
 				47A73C8A166DBD3D008A9F0D /* EUProperDivisor.m in Sources */,
+				4756D5BE166F2D0B00F56A0D /* Problem24.m in Sources */,
+				4756D5C3166F388C00F56A0D /* Problem25.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +759,8 @@
 				47EF6DCE166C8ED100DBB0D6 /* Problem22.m in Sources */,
 				47A73C85166DBC9F008A9F0D /* Problem23.m in Sources */,
 				47A73C8B166DBD3D008A9F0D /* EUProperDivisor.m in Sources */,
+				4756D5BF166F2D0B00F56A0D /* Problem24.m in Sources */,
+				4756D5C4166F388C00F56A0D /* Problem25.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +800,8 @@
 				47EF6DCC166C8EC900DBB0D6 /* Problem22.m in Sources */,
 				47A73C83166DBC9F008A9F0D /* Problem23.m in Sources */,
 				47A73C89166DBD3D008A9F0D /* EUProperDivisor.m in Sources */,
+				4756D5BD166F2D0B00F56A0D /* Problem24.m in Sources */,
+				4756D5C2166F388C00F56A0D /* Problem25.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

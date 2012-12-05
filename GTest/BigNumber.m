@@ -13,6 +13,11 @@
     NSMutableArray *_numbers;
 }
 
+- (id)copyWithZone:(NSZone *)zone{
+    BigNumber *new = [[BigNumber alloc]initWithArray:[_numbers mutableCopy]];
+    return new;
+}
+
 -(NSMutableArray*)convertToArray:(int)num{
     NSString *s = [NSString stringWithFormat:@"%d",num];
     return [self convertStringToArray:s];
@@ -63,6 +68,13 @@
     return self;
 }
 
+- (id)initWithArray:(NSMutableArray*)num{
+    self = [super init];
+    if (self) {
+        _numbers  = num;
+    }
+    return self;
+}
 
 - (id)initWithNum:(int)num
 {
