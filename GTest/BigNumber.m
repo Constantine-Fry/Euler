@@ -9,6 +9,10 @@
 #import "BigNumber.h"
 #import "NSArray_ext.h"
 
+
+
+
+
 @implementation BigNumber{
     NSMutableArray *_numbers;
 }
@@ -71,7 +75,7 @@
 - (id)initWithArray:(NSMutableArray*)num{
     self = [super init];
     if (self) {
-        _numbers  = num;
+        _numbers  = [num mutableCopy];
     }
     return self;
 }
@@ -101,6 +105,10 @@
     }
 }
 
+-(void)increase{
+    
+}
+
 -(void)plus:(BigNumber*)num{
     [self makeSureBothBigNumberWithSameSize:self and:num];
 
@@ -119,6 +127,45 @@
         carry = carry/10;
     }
 }
+
+-(void)minus:(BigNumber*)num{
+    [self makeSureBothBigNumberWithSameSize:self and:num];
+    
+    int carry = 0;
+    int ii = (int)_numbers.count-1;
+    for (int i = ii; i >= 0; --i){
+        int a1 = [self[i] intValue];
+        int a2 = [num[i] intValue];
+        int newVal = a1 - a2 - carry;
+        if (newVal < 0) {
+            newVal = 10 + newVal;
+            carry = 1;
+        }else{
+            carry = 0;
+        }
+        _numbers[i] = @(newVal);
+    }
+    if (carry) {
+        _numbers = nil;
+    }
+}
+
+-(BOOL)isValid{
+    return _numbers != nil;
+}
+
+-(void)divide:(int)num{
+    int counter = 0;
+    BigNumber *n = [[BigNumber alloc]initWithNum:num];
+    while ([self intValue] > 0) {
+        counter ++;
+        [self minus:n];
+    }
+    if ([self isValid]) {
+        (void)[self initWithNum:counter];
+    }
+}
+
 -(void)makeSureBothBigNumberWithSameSize:(BigNumber*)n1 and:(BigNumber*)n2{
     int l1 = (int)n1.count-1;
     int l2 = (int)n2.count-1;
@@ -140,6 +187,9 @@
 }
 
 -(int)intValue{
+    if (!_numbers) {
+        return -1;
+    }
     NSString *s = [_numbers componentsJoinedByString:@""];
     return s.intValue;
 }
@@ -162,10 +212,48 @@
     }
 }
 
+
+static char *_factorals;
+
+-(void)initFactorials{
+    _factorals = malloc(10*sizeof(char));
+    _factorals[0] = 0;
+    for (int i = 1; i<=9; i++) {
+        int fac = 1;
+        for (int j = 2; j<=i; j++) {
+            fac*=j;
+        }
+    _factorals[i] = fac;
+    }
+}
+    
 -(void)insertZeros:(int)num{
     for (int i = num; i > 0 ; i--) {
         [_numbers insertObject:@(0) atIndex:0];
     }
+}
+
+-(BOOL)isEqualTo:(BigNumber*)object{
+    return [_numbers isEqualTo:[object numbers]];
+}
+
+-(BOOL)isSumOfFactorialsIsEqualToNumber{
+    if (!_factorals) {
+        [self initFactorials];
+    }
+    BigNumber *b = [[BigNumber alloc]initWithNum:0];
+    for (NSNumber *n in _numbers) {
+        [b plus:[[BigNumber alloc]initWithNum:_factorals[n.intValue]]];
+    }
+    if ([b isEqualTo:self]) {
+        return YES;
+    }
+    return NO;
+}
+
+
+-(NSArray*)numbers{
+    return _numbers;
 }
 
 

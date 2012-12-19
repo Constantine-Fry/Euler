@@ -6,7 +6,6 @@
 //  Copyright (c) 2012 Constantine Fry. All rights reserved.
 //
 
-#import "EUProblem.h"
 
 
 @protocol Printer <NSObject>

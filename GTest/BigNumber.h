@@ -16,6 +16,7 @@
 -(NSString*)first10Numbers;
 
 -(NSNumber*)getSum;
+-(BOOL)isValid;
 -(int)intValue;
 -(NSUInteger)count;
 -(NSNumber*)objectAtIndexedSubscript:(NSUInteger)index;
@@ -28,8 +29,12 @@
 
 -(void)powerOf:(int)num;
 
+-(void)divide:(int)num;
+-(void)minus:(BigNumber*)num;
 -(void)plus:(BigNumber*)num;
+-(void)increase;
 
 
+-(BOOL)isSumOfFactorialsIsEqualToNumber;
 #pragma mark -
 @end

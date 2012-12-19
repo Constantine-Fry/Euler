@@ -11,17 +11,20 @@
 @implementation Problem25
 
 -(void)solve{
+    EULog(@"Answer: %@",[self solveFor:1000]);
+}
+
+-(NSNumber*)solveFor:(int)num{
     BigNumber* prev = [[BigNumber alloc]initWithNum:1];
     BigNumber* cur = [[BigNumber alloc]initWithNum:1];
     int counter = 2;
-    while (cur.count != 1000) {
+    while (cur.count != num) {
         BigNumber *temp = [cur copy];
         [cur plus:prev];
         prev = temp;
-        
         counter++;
     }
-    EULog(@"Answer: %d",counter);
+    return @(counter);
 }
 
 @end
