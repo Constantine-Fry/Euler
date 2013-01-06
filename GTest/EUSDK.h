@@ -48,6 +48,22 @@
 #import "Problem32.h"
 #import "Problem33.h"
 #import "Problem34.h"
+#import "Problem35.h"
+#import "Problem36.h"
+#import "Problem37.h"
+#import "Problem38.h"
+#import "Problem39.h"
+
+#import "Problem40.h"
+#import "Problem41.h"
+#import "Problem42.h"
+#import "Problem43.h"
+#import "Problem44.h"
+#import "Problem45.h"
+#import "Problem46.h"
+#import "Problem47.h"
+#import "Problem48.h"
+#import "Problem49.h"
 
 #import "Problem61.h"
 

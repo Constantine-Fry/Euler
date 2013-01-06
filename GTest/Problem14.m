@@ -27,7 +27,6 @@
 -(void)solve{
     int max = 0;
     int num = 0;
-    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
     for (int i = 1; i < 1000000; i++) {
         int a = [self getSequenceLength:i];
         if (max < a) {
@@ -35,7 +34,6 @@
             num = i;
         }
     }
-    EULog(@"time: %f", CFAbsoluteTimeGetCurrent() - time);
     EULog(@"Answer: %d",num);
     
 }

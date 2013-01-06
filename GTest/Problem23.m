@@ -35,7 +35,6 @@
 }
 
 -(void)solve{
-    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
     int* allInteger = malloc(28122*sizeof(int));
     NSArray *abundants = [self abundants];
     
@@ -55,7 +54,6 @@
         }
     }
     free(allInteger);
-    EULog(@"time: %f",CFAbsoluteTimeGetCurrent()-time);
     EULog(@"Answer: %d",sum);
 }
 //4179871

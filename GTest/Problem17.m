@@ -57,9 +57,7 @@
 }
 
 -(void)solve{
-    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
     EULog(@"Answer: %@",[self solveFor:1000]);//21124
-    EULog(@"time: %f", CFAbsoluteTimeGetCurrent() - time);
 }
 
 -(int)getSum9{

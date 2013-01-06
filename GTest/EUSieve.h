@@ -14,6 +14,7 @@
 
 @interface EUSieve : EUProblem
 
--(BOOL)isPrimeNumer:(int)num;
+- (id)initWith:(int)num;
+-(BOOL)isPrimeNumer:(unsigned int)num;
 
 @end

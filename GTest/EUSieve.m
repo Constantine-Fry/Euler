@@ -10,8 +10,8 @@
 
 @implementation EUSieve
 {
-    NSMutableArray *_primes;
-    int _N;
+    BOOL *_primes;
+    unsigned int _N;
 }
 
 
@@ -20,43 +20,58 @@
 {
     self = [super init];
     if (self) {
-        _primes = [NSMutableArray arrayWithCapacity:_N];
-        [self fillWith:100000];
+        _N = 100000;
+        [self fillWith:_N];
 
     }
     return self;
 }
 
+- (id)initWith:(int)num
+{
+    self = [super init];
+    if (self) {
+        _N = num;
+        [self fillWith:_N];
+        
+    }
+    return self;
+}
+
+
+
+- (void)dealloc
+{
+    free(_primes);
+}
+
 
 -(void)fillWith:(int)num{
     _N = num;
-    
     [self fill];
-
 }
--(void)fill{
-    NSMutableArray *a = [NSMutableArray arrayWithCapacity:_N];
-    
 
-    [a addObject:@NO];
-    for(int i = 1; i < _N; i++){
-        [a addObject:@YES];    
+-(void)fill{
+    if (_primes != NULL) {
+        free(_primes);
     }
+    _primes = malloc(_N*sizeof(BOOL));
+    memset(_primes, YES, _N*sizeof(BOOL));
+    _primes[0] = NO;
+    _primes[1] = NO;
     
     for (int i=2; i*i < _N; i++)
-        if ([a[i] boolValue])
+        if (_primes[i])
             for (int j=i*i; j < _N; j+=i)
-                a[j] = @NO;
-    
-    _primes = a;
+                _primes[j] = NO;
 }
 
 
 
--(BOOL)isPrimeNumer:(int)num{
+-(BOOL)isPrimeNumer:(unsigned int)num{
     if (num >= _N) {
-        [self fillWith:_N*2];
+        [self fillWith:num*2];
     }
-    return  [_primes[num] boolValue];
+    return  _primes[num];
 }
 @end

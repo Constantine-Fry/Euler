@@ -38,7 +38,7 @@
     return daysPrMonth;
 }
 -(void)solve{
-    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
+
     NSArray *daysPrMonth = [self generateMonths];
     int result = 0;
     int counter = 0;
@@ -49,7 +49,7 @@
             result++;
         }
     }
-    EULog(@"time:%f",CFAbsoluteTimeGetCurrent()-time);
+
     EULog(@"Answer: %d",result);
 }
 

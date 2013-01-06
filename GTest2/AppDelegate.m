@@ -37,8 +37,10 @@
 }
 
 -(void)solve{
-    EUProblem *p = [[Problem31 alloc]init];
+    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
+    EUProblem *p = [[Problem42 alloc]init];
     [p solve];
+    EULog(@"%.0f ms",((CFAbsoluteTimeGetCurrent()-time)*1000));
 }
 
 - (IBAction)solve:(NSButton*)sender {

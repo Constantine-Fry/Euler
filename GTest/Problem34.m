@@ -59,7 +59,6 @@
 //http://mathworld.wolfram.com/Factorion.html
 -(void)solve{
     int result = -3;
-    CFAbsoluteTime start = CFAbsoluteTimeGetCurrent();
     for (long  i = 1; i<=_factorals[9]; i++) {
         long sum = 0;
         long a = i;
@@ -76,7 +75,7 @@
         
     }
 
-    EULog(@"%f",CFAbsoluteTimeGetCurrent() - start);
+
     EULog(@"Answer: %d",result);
 }
 

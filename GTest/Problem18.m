@@ -46,7 +46,7 @@
 
 
 -(void)solve{
-    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
+
     NSMutableArray *prev = _input[0];
     NSMutableArray *cur = [NSMutableArray arrayWithCapacity:prev.count+1];
     [cur addObject:@(0)];
@@ -67,7 +67,6 @@
     for (NSNumber *n in prev) {
         max = MAX(n.intValue, max);
     }
-    EULog(@"time:%f",CFAbsoluteTimeGetCurrent()-time);
     EULog(@"Answer: %d",max);
 }
 

@@ -37,7 +37,6 @@
 
 -(void)solve{
     long sum = 0;
-    CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
     NSArray *names = [self getNames];
     names = [names sortedArrayUsingSelector:@selector(compare:)];
     int position = 0;
@@ -45,7 +44,6 @@
         int worth = [self getWorthForName:n];   
         sum += worth * ++position;
     }
-    EULog(@"time: %f",CFAbsoluteTimeGetCurrent() - time);
     EULog(@"Answer: %ld",sum);
 }
 @end

@@ -16,9 +16,10 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool {
         srand((unsigned)time(0));
-        
-        EUProblem *p = [[Problem21 alloc]init];
+        CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
+        EUProblem *p = [[Problem49 alloc]init];
         [p solve];
+        EULog(@"%.0f ms",((CFAbsoluteTimeGetCurrent()-time)*1000));
     }
     return 0;
 }
