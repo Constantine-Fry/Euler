@@ -9,6 +9,17 @@
 #import "EUProblem.h"
 
 @implementation EUProblem
+
+-(NSString*)openFileWithName:(NSString*)string{
+    NSArray *a = [string componentsSeparatedByString:@"."];
+    NSString *path = [[NSBundle mainBundle] pathForResource:a[0]
+                                                     ofType:a[1]];
+    NSString *input = [NSString stringWithContentsOfFile:path
+                                                encoding:NSUTF8StringEncoding
+                                                   error:nil];
+    return input;
+}
+
 - (id)init
 {
     self = [super init];

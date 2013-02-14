@@ -65,6 +65,12 @@
 #import "Problem48.h"
 #import "Problem49.h"
 
+#import "Problem50.h"
+#import "Problem51.h"
+#import "Problem52.h"
+#import "Problem53.h"
+#import "Problem54.h"
+
 #import "Problem61.h"
 
 #endif

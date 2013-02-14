@@ -24,4 +24,6 @@
 -(void)solve;
 -(NSNumber*)solveFor:(int)num;
 -(NSNumber*)solveForLong:(long)num;
+
+-(NSString*)openFileWithName:(NSString*)string;
 @end

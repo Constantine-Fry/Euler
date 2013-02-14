@@ -38,7 +38,7 @@
 
 -(void)solve{
     CFAbsoluteTime time = CFAbsoluteTimeGetCurrent();
-    EUProblem *p = [[Problem42 alloc]init];
+    EUProblem *p = [[Problem54 alloc]init];
     [p solve];
     EULog(@"%.0f ms",((CFAbsoluteTimeGetCurrent()-time)*1000));
 }
